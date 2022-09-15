@@ -23,16 +23,13 @@
     0% {
         opacity: 0;
     }
-    10% {
-        opacity: 0;
-    }
-    17% {
+    7% {
         opacity: 1;
     }
-    22% {
+    13% {
         opacity: 1;
     }
-    30% {
+    20% {
         opacity: 0;
     }
     100% {
@@ -49,17 +46,21 @@
 }
 
 #Slide2 {
-    animation-delay: 6s;
+    animation-delay: 0s;
 }
 
 #Slide3 {
-    animation-delay: 12s;
+    animation-delay: 6s;
 }
 
 #Slide4 {
-    animation-delay: 18s;
+    animation-delay: 12s;
 }
 
 #Slide5 {
+    animation-delay: 18s;
+}
+
+#Slide6 {
     animation-delay: 24s;
 }

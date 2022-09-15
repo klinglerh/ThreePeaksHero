@@ -1,0 +1,65 @@
+#HeroImage {
+    position: relative;
+    height: auto;
+    width: auto;
+    margin: 0 auto;
+}
+
+.HI {
+    position: absolute;
+    left: 0;
+    width: 100%
+}
+
+.top {
+    opacity: 0%;
+    -webkit-transition: opacity 3s ease-in-out;
+    -moz-transition: opacity 3s ease-in-out;
+    -o-transition: opacity 3s ease-in-out;
+    transition: opacity 3s ease-in-out;
+}
+
+@keyframes HIFadeInOut {
+    0% {
+        opacity: 0;
+    }
+    10% {
+        opacity: 0;
+    }
+    17% {
+        opacity: 1;
+    }
+    22% {
+        opacity: 1;
+    }
+    30% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+.top {
+    animation-name: HIFadeInOut;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-duration: 30s;
+    animation-direction: normal
+}
+
+#Slide2 {
+    animation-delay: 6s;
+}
+
+#Slide3 {
+    animation-delay: 12s;
+}
+
+#Slide4 {
+    animation-delay: 18s;
+}
+
+#Slide5 {
+    animation-delay: 24s;
+}
